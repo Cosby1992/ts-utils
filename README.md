@@ -1,6 +1,6 @@
 # typescript-module-template
 
-A simple typescript module template with a jest configuration for testing.
+A simple typescript module template with jest configuration for testing.
 
 ## Commands
 
@@ -8,7 +8,7 @@ A simple typescript module template with a jest configuration for testing.
 
 ```npm run test:cov``` Runs all test files in the project and generates a test coverage report
 
-```npm run build``` Build the module as esm and commonjs in ```dist``` directory (runs ```npm run clean``` before building new files)
+```npm run build``` Build the module as esm and commonjs (```esm```/```cjs```) in ```dist``` directory (runs ```npm run clean``` before building new files)
 
-```npm run  clean``` Deletes the ```dist``` directory
+```npm run clean``` Deletes the ```dist``` directory
 
