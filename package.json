@@ -9,12 +9,14 @@
   "scripts": {
     "test": "jest --no-cache",
     "test:cov": "jest --no-cache --coverage=true",
+    "test:clean": "node ./tools/clean-test.js",
     "build": "npm run clean && npx tsc --p ./config/tsconfig.cjs.json && npx tsc --p ./config/tsconfig.esm.json",
     "preclean": "echo cleaning project...",
-    "clean": "node ./clean-build/clean-build.js"
+    "clean": "node ./tools/clean-build.js",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "module", "template", "boilerplate"],
+  "author": "Cosby",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.0.3",

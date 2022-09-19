@@ -5,7 +5,7 @@ export default {
   testMatch: ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
   testPathIgnorePatterns: ['/node_modules/'],
   coverageDirectory: './coverage',
-  coveragePathIgnorePatterns: ['node_modules', 'src/database', 'src/test', 'src/types'],
+  coveragePathIgnorePatterns: ['node_modules'],
   reporters: ['default', ['jest-junit', {
     outputDirectory: 'test_reports',
     outputName: 'jest-junit.xml',
