@@ -1,29 +1,8 @@
-# typescript-module-template
+# ts-utils
 
-A simple typescript module template with jest configuration for testing.
-This is almost as lightweight as it gets. It comes only with a very basic but 
-sufficient set of tools and configuration. It bundles your files into 
-```commonjs``` and ```esm``` modules which should be suffiecient for most 
-simple modules. Jest has been added to ease testing and has also been set up
-with a very basic configuration. 
+A collection of utility tools for typescript. 
 
-## Using the template
-
-This template is supposed to be used by cloning this repository and changing the information in the ```package.json```.
-
-OBS: make sure to rename your module when cloning this repository by replacing ```<your-module-name>``` with the name of your module eg: ```my-cool-ts-module```.
-
-Run ```git clone https://github.com/Cosby1992/typescript-module-template.git <your-module-name>``` from the directory where you want to have your module located on your PC. 
-
-Change the following fields with your own data in the ```package.json``` file: 
-1. name
-2. version
-3. description
-4. keywords
-5. author
-6. licence
-
-Now you are ready to start developing your Typescript Module!
+Nothing is implemented yet, so you will have to arm yourself with patience!
 
 ## Commands (defined in ```package.json```)
 ```npm run build``` Build the module as esm and commonjs (```esm```/```cjs```) in ```dist``` directory (runs ```npm run clean``` before building new files)
@@ -109,4 +88,7 @@ automatically run before publishing with the ```npm publish``` command.
 Read more about publishing here: https://docs.npmjs.com/cli/v8/commands/npm-publish
 
 And here: https://zellwk.com/blog/publish-to-npm/
+
+<br><br><br>
+**Powered by typescript-module-template (https://github.com/Cosby1992/typescript-module-template)**
 
