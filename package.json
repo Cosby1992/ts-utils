@@ -1,7 +1,7 @@
 {
-  "name": "typescript-module-template",
-  "version": "1.0.0",
-  "description": "A simple typescript module template with a jest configuration for testing.",
+  "name": "ts-utils",
+  "version": "0.0.1",
+  "description": "A collection of utility tools for typescript",
   "main": "dist/cjs/index",
   "module": "dist/esm/index",
   "types": "dist/cjs/index.d.ts",
