@@ -6,6 +6,7 @@ export default {
   testPathIgnorePatterns: ['/node_modules/'],
   coverageDirectory: './coverage',
   coveragePathIgnorePatterns: ['node_modules'],
+  moduleDirectories: ['node_modules', 'src'],
   reporters: ['default', ['jest-junit', {
     outputDirectory: 'test_reports',
     outputName: 'jest-junit.xml',

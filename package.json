@@ -10,6 +10,7 @@
     "test": "jest --no-cache",
     "test:cov": "jest --no-cache --coverage=true",
     "test:clean": "node ./tools/clean-test.js",
+    "tsfile": "ts-node-esm",
     "build": "npm run clean && npx tsc --p ./config/tsconfig.cjs.json && npx tsc --p ./config/tsconfig.esm.json",
     "preclean": "echo cleaning project...",
     "clean": "node ./tools/clean-build.js",
