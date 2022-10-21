@@ -6,6 +6,9 @@
  * @author Cosby
  */
 
-import { sum } from 'arithmetic/sum';
+import { mergeSort } from "sorting/sort";
+import { LinkedQueue } from "queues/queues";
+import { Queue, Comparator, KeyValuePair } from "types-and-interfaces/types-and-interfaces";
 
-export { sum };
+
+export {mergeSort, LinkedQueue, Queue, Comparator, KeyValuePair};

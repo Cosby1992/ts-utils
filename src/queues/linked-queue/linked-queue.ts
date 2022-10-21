@@ -1,4 +1,4 @@
-import { Queue } from "queue/queue.interface";
+import { Queue } from '../../types-and-interfaces/types-and-interfaces';
 
 class QueueNode<T> {
     constructor(public item: T, public next: QueueNode<T> | null = null) {}
